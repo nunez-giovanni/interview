@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-
 var someArray = [ 8, 1, 7, 20, 40, 33, 28, 45, 37, 9]
 
 func insertionSort(myArray: [Int])-> [Int] {
