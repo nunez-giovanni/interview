@@ -1,29 +1,29 @@
 # Binary Search
 
 ## what is it
-Binary search is efficient as it works by cutting the data in half to find the desired item. 
+Binary search is an efficient way of searching, as it effectively works by cutting the data in half to find the desired item. 
 
 ## Pros
-Fast search 
+Fast search.
 
 ## Cons 
-Data must be sorted to use 
+Data must be sorted to use.
 
 ## Big-O
-Average complexity: O( Log n ) - logarithmic time 
-This is the complexity we give during interviews.  
-On average it will take us log of the N value.
-With each iteration, the input size decreases by a constant multiple factor.
+* Average complexity: O( Log n )  logarithmic time 
+* This is the complexity you should mention during interviews.  
+* On average it will take us log of N value.
+* With each iteration, the input size decreases by a constant multiple factor.
 
-Best Complexity: O(1) - Constant time .  
-At best we might find the desired value on the first check.
+Best Complexity: O(1) - Constant time.  
+* At best we might find the desired value on the first check.
 
 
 Worst Complexity: O( Log n ).   
-Luckily at worst it will still take log of N items.
+* Luckily at worst it will still take log of N items.
 
 
-## JavaScript Code Example
+## JavaScript ( NodeJS ) Code Example
 ```
 let myArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
 let emptyArray = [16]
@@ -66,7 +66,6 @@ function binarySearch(orderedArray, target) {
   // if array is empty, or value not present, this should return -1
   return -1
 }
-
 
 console.log(binarySearch(myArray, 16))
 ```
