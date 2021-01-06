@@ -98,3 +98,4 @@ function insertionSort(data) {
 let results = insertionSort(someArray)
 console.log(results)
 ```
+[Link to LeetCode](https://leetcode.com/submissions/detail/439370976/)
