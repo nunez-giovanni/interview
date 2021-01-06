@@ -133,3 +133,4 @@ def binarySort(orderedArray, target):
 res =	binarySort(my_list, 19)
 print(res)
 ```
+[Link to LeetCode](https://leetcode.com/submissions/detail/437737831/)
